@@ -1,0 +1,52 @@
+body{
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+div {
+    background-color: lightgray;
+    /*width: 250px;*/
+    /*height: 250px;*/
+}
+
+/*.grid {*/
+/*    height: 250px;*/
+/*    width: 250px;*/
+/*}*/
+
+/*.row1 {*/
+/*    height: 250px;*/
+/*    width: 250px;*/
+/*    padding-top: 250px;*/
+/*}*/
+
+.one {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    justify-content: space-evenly;
+}
+
+.two {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    justify-content: space-evenly;
+}
+
+h1{
+    justify-content: center;
+}
